@@ -67,48 +67,20 @@
         </div>
     </div>
 
-    <div class="container">
-        <h1 class="my-4">Comment Section</h1>
-        <form id="comment-form">
-            <div class="form-group">
-                <label for="username">Name:</label>
-                <input type="text" class="form-control" id="username" required>
-            </div>
-            <div class="form-group">
-                <label for="comment">Comment:</label>
-                <textarea class="form-control" id="comment" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <div id="comments-list" class="mt-4">
-            <!-- Comments will be appended here -->
-        </div>
-    </div>
-
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
     <script>
     // Your web app's Firebase configuration
-        // var firebaseConfig = {
-        //   apiKey: "AIzaSyD6Gx7t3DPPu6Q3iQQ9QQUe-Bc1nBuc480",
-        //   authDomain: "bachelor-search.firebaseapp.com",
-        //   projectId: "bachelor-search",
-        //   storageBucket: "bachelor-search.appspot.com",
-        //   messagingSenderId: "931420024420",
-        //   appId: "1:931420024420:web:8b802bfeee313dd6bff971",
-        //   measurementId: "G-C3N67KSNVK"
-        // };
-
         var firebaseConfig = {
-          apiKey: "AIzaSyB1gquid4baYJCMUvRAqL4TPAkLg5VmTwg",
-          authDomain: "bachelor-comment.firebaseapp.com",
-          projectId: "bachelor-comment",
-          storageBucket: "bachelor-comment.appspot.com",
-          messagingSenderId: "637996527774",
-          appId: "1:637996527774:web:439291c3f180a65d684b8f",
-          measurementId: "G-J01M7V58T9"
+          apiKey: "AIzaSyD6Gx7t3DPPu6Q3iQQ9QQUe-Bc1nBuc480",
+          authDomain: "bachelor-search.firebaseapp.com",
+          projectId: "bachelor-search",
+          storageBucket: "bachelor-search.appspot.com",
+          messagingSenderId: "931420024420",
+          appId: "1:931420024420:web:8b802bfeee313dd6bff971",
+          measurementId: "G-C3N67KSNVK"
         };
       
         // Initialize Firebase
